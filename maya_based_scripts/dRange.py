@@ -12,6 +12,20 @@ class Range:
         self.stop = stop
         self.step = step
 
+    @staticmethod
+    def __doc__():
+        doc = \
+            """
+        Programmed by Jeff Miller 2017
+        Jeff3DAnimation@yahoo.com
+        Jeff3DAnimation.com
+
+        This tool creates an array containing strings to be interpreted as
+        floats. The string can be added as a piece of text for a button.
+        """
+
+        return doc
+
     def decimal(self):
         """
         Get our decimals and return the information

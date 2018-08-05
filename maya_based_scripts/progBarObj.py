@@ -39,6 +39,10 @@ class ExtremeProgressBar:
     def __doc__():
         doc = \
             """
+        Programmed by Jeff Miller 2018
+        Jeff3DAnimation@yahoo.com
+        Jeff3DAnimation.com
+        
         This tool is a progress bar that sets up as a child object
         to the window that it is parented to. The progress bar is
         an actual progress bar with a few text options that display
