@@ -2,7 +2,7 @@ import os
 import json
 
 
-class DungeonTrackerJson:
+class DTJson:
     def __init__(self, load=bool(), _file=str(), content=None):
         """
         This script either creates or loads a json document for the
@@ -73,10 +73,10 @@ def main(load=bool(), _file=str(), content=dict()):
     """
 
     if load is False:
-        return DungeonTrackerJson(load, _file, content).writer()
+        return DTJson(load, _file, content).writer()
 
     else:
-        return DungeonTrackerJson(load, _file, content).loader()
+        return DTJson(load, _file, content).loader()
 
 
 if __name__ == '__main__':

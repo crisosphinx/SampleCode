@@ -106,7 +106,7 @@ class PickWalker:
         
         
         Jeff3DAnimation@yahoo.com
-        Jeff3DAnimation.com
+        http://www.Jeff3DAnimation.com
         """
 
         return doc
